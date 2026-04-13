@@ -30,7 +30,7 @@
 
 ## 特点
 1. 支持 gpt | deepseek | claude | gemini | grok 等排名靠前的常用大模型。
-2. 免费版支持gpt-5.2, gpt-5.1, gpt-5, gpt-4o，gpt-4.1一天5次；支持deepseek-r1, deepseek-v3, deepseek-v3-2-exp一天30次，支持gpt-4o-mini，gpt-3.5-turbo，gpt-4.1-mini，gpt-4.1-nano, gpt-5-mini，gpt-5-nano一天200次。
+2. 免费版支持gpt-5系列, gpt-4o，gpt-4.1一天5次；支持deepseek-r1, deepseek-v3, deepseek-v3-2-exp一天30次，支持gpt-4o-mini，gpt-3.5-turbo，gpt-4.1-mini，gpt-4.1-nano, gpt-5-mini，gpt-5-nano一天200次。
 3. 与官方完全一致的接口标准，兼容各种软件/插件。
 4. 支持流式响应。
 5. 国内线路使用动态加速，体验远优于使用代理连接官方。
@@ -76,9 +76,14 @@
 
 ## 付费版支持模型
 
+
 | **模型（Model）** | **请求（Input）** | **回答（Output）** | **是否支持** | **特点** |
 | --- | --- | --- | --- | --- |
 | gpt-5.4 | 0.0175 / 1K Tokens [7阶梯计价]| 0.105 / 1K Tokens | 支持 | openai最新推出的面向各行各业的编码和智能体任务的旗舰模型 |
+| gpt-5.4-mini | 0.00525 / 1K Tokens | 0.0315 / 1K Tokens | 支持 | openai2026年3月17日为止最强大的编码、计算机使用和子代理迷你模型 |
+| gpt-5.4-mini-2026-03-17 | 0.00525 / 1K Tokens | 0.0315 / 1K Tokens | 支持 | openai2026年3月17日为止最强大的编码、计算机使用和子代理迷你模型|
+| gpt-5.4-nano | 0.0014 / 1K Tokens | 0.00875 / 1K Tokens | 支持 | openai最便宜的GPT-5.4级型号，适用于简单的高容量任务 |
+| gpt-5.4-nano-2026-03-17 | 0.0014 / 1K Tokens | 0.00875 / 1K Tokens | 支持 | openai最便宜的GPT-5.4级型号，适用于简单的高容量任务 |
 | gpt-5.4-2026-03-05 | 0.0175 / 1K Tokens | 0.105 / 1K Tokens | 支持 | openai最新推出的面向各行各业的编码和智能体任务的旗舰模型 |
 | gpt-5.2 | 0.01225 / 1K Tokens | 0.098  / 1K Tokens | 支持 | 面向各行各业的编码和智能体任务的旗舰模型 |
 | gpt-5.2-2025-12-11 | 0.01225 / 1K Tokens | 0.098  / 1K Tokens |支持| 面向各行各业的编码和智能体任务的旗舰模型 |
@@ -114,24 +119,18 @@
 | gpt-3.5-turbo-16k | 0.021 / 1K Tokens | 0.028 / 1K Tokens | 支持 | 适合快速回答简单问题,字数更多 |
 | gpt-3.5-turbo-instruct | 0.0105 / 1K Tokens | 0.014 / 1K Tokens | 支持 |Completions模型 用于文本生成，提供准确的自然语言处理模型一般人用不上|
 | o3-mini [5]| 0.0088 / 1K Tokens | 0.0352 / 1K Tokens | 支持 | 针对复杂任务的推理模型 |
-| o1 [5]| 0.12 / 1K Tokens | 0.48 / 1K Tokens | 支持 | o1系列模型经过强化学习训练，可以进行复杂的推理。o1模型在回答之前会思考，在回应用户之前会产生一长串的内部思维链 |
 | gpt-4o-search-preview  | 0.0175/1K Tokens| 0.07/1K Tokens + 搜索费用[6]| 支持 | Openai 出的搜索模型,支持网络搜索,指向最新的4o的搜索模型|
 | gpt-4o-search-preview-2025-03-11| 0.0175/1K Tokens| 0.07/1K Tokens + 搜索费用[6]| 支持 | Openai 出的搜索模型,支持网络搜索|
 | gpt-4o-mini-search-preview | 0.00105/1K Tokens| 0.0042/1K Tokens + 搜索费用[6]| 支持 | Openai 出的搜索模型,支持网络搜索,指向最新的4o-mini的搜索模型|
 | gpt-4o-mini-search-preview-2025-03-11 |0.00105/1K Tokens| 0.0042/1K Tokens + 搜索费用[6]| 支持 | Openai 出的搜索模型,支持网络搜索|
 | gpt-4 | 0.21 / 1K Tokens | 0.42 / 1K Tokens | 支持 | 默认模型，等于gpt-4-0613 |
 | gpt-4o | 0.0175/1K Tokens + 图片费用[2]| 0.07/1K Tokens| 支持 | Openai 价格更低, 速度更快更聪明,指向最新版的4o版本|
-| gpt-4o-2024-05-13 | 0.035/1K Tokens + 图片费用[2]| 0.105/1K Tokens | 支持 | Openai 2024-05-13出的gpt-4o模型|
-| gpt-4o-2024-08-06 | 0.0175/1K Tokens + 图片费用[2]| 0.07/1K Tokens | 支持 | Openai 2024-08-06出的gpt-4o模型 支持128k输入,16k输出|
 | gpt-4o-2024-11-20 | 0.0175/1K Tokens + 图片费用[2]| 0.07/1K Tokens | 支持 | Openai 2024-11-20出的gpt-4o模型, 该模型的创意写作能力得到了提升一更自然、更有吸引力、更有针对性的写作|
 | gpt-4o-mini | 0.00105/1K Tokens + 图片费用[2]| 0.0042/1K Tokens| 支持 | Openai 最新模型, 价格更低, 输出质量在3.5之上4o之下, 并且支持读图|
 | gpt-4-0613 | 0.21 / 1K Tokens | 0.42 / 1K Tokens | 支持 | 2023年6月13日更新的模型 |
-| gpt-4-turbo-preview | 0.07 / 1K Tokens| 0.21 / 1K Tokens | 支持 | 最新模型，输入128K，输出最大4K，知识库最新2023年4月, 此模型始终指向最新的4的preview模型|
-| gpt-4-0125-preview | 0.07 / 1K Tokens| 0.21 / 1K Tokens | 支持 | 2024年1月25日更新的模型，输入128K，输出最大4K，知识库最新2023年4月, 修复了一些1106的bug|
-| gpt-4-1106-preview | 0.07 / 1K Tokens| 0.21 / 1K Tokens | 支持 | 2023年11月6日更新的模型，输入128K，输出最大4K，知识库最新2023年4月|
-| gpt-4-vision-preview | 0.07 / 1K Tokens + 图片费用[2]| 0.21 / 1K Tokens | 支持 |多模态，支持图片识别|
-| gpt-4-turbo | 0.07 / 1K Tokens + 图片费用[2]| 0.21 / 1K Tokens | 支持 | Openai 最新模型多模态，支持图片识别，支持函数tools|
-| gpt-4-turbo-2024-04-09 | 0.07 / 1K Tokens + 0.10115\*图片个数[2]| 0.21 / 1K Tokens | 支持 | Openai 最新模型多模态，支持图片识别，支持函数tools|
+| gpt-5.4-ca | 0.01 / 1K Tokens [7阶梯计价]| 0.06 / 1K Tokens | 支持 | 第三方优质提供商提供的服务,优点价格便宜,但是稳定性没有非-ca的好, 模型返回和能力都是一样的  |
+| gpt-5.4-mini-ca | 0.003 / 1K Tokens| 0.018 / 1K Tokens | 支持 | 第三方优质提供商提供的服务,优点价格便宜,但是稳定性没有非-ca的好, 模型返回和能力都是一样的  |
+| gpt-5.4-nano-ca | 0.0008 / 1K Tokens | 0.005 / 1K Tokens | 支持 | 第三方优质提供商提供的服务,优点价格便宜,但是稳定性没有非-ca的好, 模型返回和能力都是一样的  |
 | gpt-5-codex-ca | 0.005 / 1K Tokens | 0.04  / 1K Tokens | 支持 | 支持在codex中使用第三方优质提供商提供的服务,优点价格便宜,但是稳定性没有非-ca的好, 模型返回和能力都是一样的 |
 | gpt-5.1-codex-ca | 0.005 / 1K Tokens | 0.04  / 1K Tokens | 支持 | 支持在codex中使用第三方优质提供商提供的服务,优点价格便宜,但是稳定性没有非-ca的好, 模型返回和能力都是一样的 |
 | gpt-5.2-codex-ca | 0.007 / 1K Tokens | 0.056  / 1K Tokens | 支持 | 支持在codex中使用第三方优质提供商提供的服务,优点价格便宜,但是稳定性没有非-ca的好, 模型返回和能力都是一样的 |
@@ -146,7 +145,7 @@
 | gpt-4.1-ca| 0.008 / 1K Tokens | 0.032 / 1K Tokens | 支持 | 第三方优质提供商提供的服务,优点价格便宜,但是稳定性没有非-ca的好, 模型返回和能力都是一样的|
 | gpt-4.1-mini-ca | 0.0016 / 1K Tokens | 0.0064 / 1K Tokens | 支持 | 第三方优质提供商提供的服务,优点价格便宜,但是稳定性没有非-ca的好, 模型返回和能力都是一样的|
 | gpt-4.1-nano-ca | 0.0004 / 1K Tokens | 0.003 / 1K Tokens | 支持 | 第三方优质提供商提供的服务,优点价格便宜,但是稳定性没有非-ca的好, 模型返回和能力都是一样的|
-| gpt-3.5-turbo-ca | 0.001 / 1K Tokens | 0.0016  / 1K Tokens | 不支持 | 由于Azure openai已经下架gpt-3.5,故-ca版本的3.5以不可以用,请使用gpt-4o-mini或者gpt-4.1-mini或者更高的模型本模型将会重定向至gpt-4.1-mini|
+| gpt-3.5-turbo-ca | 0.001 / 1K Tokens | 0.0016  / 1K Tokens | 不支持 | 由于Azure openai已经下架gpt-3.5,故-ca版本的3.5以不可以用,请使用gpt-4o-mini或者gpt-4.1-mini或者更高的模型本模型将会重定向至gpt-4o-mini|
 | gpt-4-ca | 0.12 / 1K Tokens | 0.24 / 1K Tokens | 支持 |由于Azure openai已经下架gpt-4,故-ca版本的4以不可以用,请使用gpt-4o或者gpt-4.1或者更高的模型|
 | gpt-4o-ca | 0.01 / 1K Tokens + 0.0289\*图片个数[3]| 0.04 / 1K Tokens | 支持 | 第三方优质提供商提供的服务,优点价格便宜,但是稳定性没有非-ca的好, 模型返回和能力都是一样的|
 | gpt-4o-mini-ca | 0.00075 / 1K Tokens| 0.003 / 1K Tokens | 支持 | 第三方优质提供商提供的服务,优点价格便宜,但是稳定性没有非-ca的好, 模型返回和能力都是一样的|
@@ -159,7 +158,7 @@
 | deepseek-r1 | 0.0024  / 1K Tokens | 0.0096 / 1K Tokens | 支持 |deepseek的思考R1模型, 此模型由第三方(火山引擎)供应商提供，有小概率可能会出现响应速度较慢或报错的情况。|
 | deepseek-r1-250528 | 0.0024  / 1K Tokens | 0.0096 / 1K Tokens | 支持 |deepseek的思考R1模型, 此模型由第三方供应商提供，有小概率可能会出现响应速度较慢或报错的情况。|
 | deepseek-v3 | 0.0012  / 1K Tokens | 0.0048 / 1K Tokens | 支持 |deepseek的聊天模型, 此模型由第三方供应商提供，有小概率可能会出现响应速度较慢或报错的情况。|
-| deepseek-chat |  0.0012  / 1K Tokens | 0.0018 / 1K Tokens / 1K Tokens | 支持 |deepseek的聊天模型, 此模型由第三方供应商提供，有小概率可能会出现响应速度较慢或报错的情况。|
+| deepseek-chat |  0.0012  / 1K Tokens | 0.0018 / 1K Tokens | 支持 |deepseek的聊天模型, 此模型由第三方供应商提供，有小概率可能会出现响应速度较慢或报错的情况。|
 | claude-sonnet-4-6 | 0.015 / 1K Tokens | 0.075 / 1K Tokens | 支持 |claude的模型, 此模型由第三方供应商提供，现在使用的为Claude code的逆向或官方逆向的渠道。|
 | claude-sonnet-4-6-thinking | 0.015 / 1K Tokens | 0.075 | 支持 |claude的模型, 此模型由第三方供应商提供，有小概率可能会出现响应速度较慢或报错的情况。|
 | claude-opus-4-6 | 0.025 / 1K Tokens | 0.125 / 1K Tokens | 支持 |claude的模型, 此模型由第三方供应商提供，有小概率可能会出现响应速度较慢或报错的情况。|
@@ -172,25 +171,18 @@
 | claude-sonnet-4-5-20250929-thinking | 0.015 / 1K Tokens | 0.075 / 1K Tokens | 支持 |claude的模型, 此模型由第三方供应商提供，现在使用的为Claude code的逆向或官方逆向的渠道。|
 | claude-opus-4-1-20250805 | 0.075 / 1K Tokens | 0.375 / 1K Tokens | 支持 |claude的模型, 此模型由第三方供应商提供，有小概率可能会出现响应速度较慢或报错的情况。|
 | claude-opus-4-1-20250805-thinking | 0.075 / 1K Tokens | 0.375 / 1K Tokens | 支持 |claude的模型, 此模型由第三方供应商提供，有小概率可能会出现响应速度较慢或报错的情况。|
-| claude-opus-4-20250514 | 0.075 / 1K Tokens | 0.375 / 1K Tokens | 支持 |claude的模型, 此模型由第三方供应商提供，现在使用的为Claude code的逆向或官方逆向的渠道。|
-| claude-opus-4-20250514-thinking | 0.075 / 1K Tokens | 0.375 / 1K Tokens | 支持 |claude的模型, 此模型由第三方供应商提供，现在使用的为Claude code的逆向或官方逆向的渠道。|
-| claude-sonnet-4-20250514 | 0.015 / 1K Tokens | 0.075 / 1K Tokens | 支持 |claude的模型, 此模型由第三方供应商提供，现在使用的为Claude code的逆向或官方逆向的渠道。|
-| claude-sonnet-4-20250514-thinking | 0.015 / 1K Tokens | 0.075 / 1K Tokens | 支持 |claude的模型, 此模型由第三方供应商提供，现在使用的为Claude code的逆向或官方逆向的渠道。|
-| claude-3-7-sonnet-20250219 | 0.015 / 1K Tokens | 0.075 / 1K Tokens | 支持 |claude的模型, 此模型由第三方供应商提供，有小概率可能会出现响应速度较慢或报错的情况。|
-| claude-3-5-sonnet-20240620 | 0.015 / 1K Tokens | 0.075 / 1K Tokens | 支持 |claude的模型, 此模型由第三方供应商提供，有小概率可能会出现响应速度较慢或报错的情况。|
-| claude-3-5-sonnet-20241022 | 0.015 / 1K Tokens | 0.075 / 1K Tokens | 支持 |claude的模型, 此模型由第三方供应商提供，有小概率可能会出现响应速度较慢或报错的情况。|
-| claude-3-5-haiku-20241022 | 0.005 / 1K Tokens | 0.025 / 1K Tokens | 支持 |claude的模型, 此模型由第三方供应商提供，有小概率可能会出现响应速度较慢或报错的情况。|
 | gemini-2.5-pro | 0.007 / 1K Tokens | 0.04 / 1K Tokens | 支持 | 是gemini 最新的旗舰模型, 此模型由第三方供应商提供，有小概率可能会出现响应速度较慢或报错的情况。|
 | gemini-2.5-flash | 0.0012 / 1K Tokens | 0.01 / 1K Tokens | 支持 | Google Gemini 的模型, 此模型由第三方供应商提供，有小概率可能会出现响应速度较慢或报错的情况。|
 | gemini-2.5-flash-nothinking | 0.0012 / 1K Tokens | 0.01 / 1K Tokens | 支持 | Google Gemini 的模型, 此模型由第三方供应商提供，有小概率可能会出现响应速度较慢或报错的情况。|
 | gemini-2.5-flash-lite | 0.0004 / 1K Tokens | 0.0016 / 1K Tokens | 支持 | Google Gemini 的模型, 此模型由第三方供应商提供，有小概率可能会出现响应速度较慢或报错的情况。|
-| gemini-2.5-flash-image-preview | 0.0015 / 1K Tokens | 0.15 / 1K Tokens | 支持 | Google Gemini的生图模型也是大家口中所说的nano banana 一张图的价格大概在2毛钱左右 |
+| gemini-2.5-flash-image-preview | 0.0015 / 1K Tokens | 0.15 / 1K Tokens | 支持 | Google Gemini的生图模型也是大家口中所说的nano banana |
 | gemini-3-pro-image-preview | 0 / 1K Tokens | 0.68一张图| 支持 | Google Gemini的生图模型也是大家口中所说的nano banana |
-| gemini-3.1-flash-image-preview | 0.00125 / 1K Tokens | 0.3 / 1K Tokens | 支持 | Google Gemini的生图模型也是大家口中所说的nano banana 一张图的价格大概在2毛钱左右 |
+| gemini-3.1-flash-image-preview | 0.00125 / 1K Tokens | 0.3 / 1K Tokens | 支持 | Google Gemini的生图模型也是大家口中所说的nano banana |
 | gemini-3-pro-preview | 0.008 / 1K Tokens | 0.048 / 1K Tokens | 支持 | Google Gemini 的模型, 此模型由第三方供应商提供，有小概率可能会出现响应速度较慢或报错的情况。|
 | gemini-3-flash-preview | 0.002 / 1K Tokens | 0.012 / 1K Tokens | 支持 | Google Gemini 的模型, 此模型由第三方供应商提供，有小概率可能会出现响应速度较慢或报错的情况。|
 | gemini-3-flash-preview-nothinking | 0.002 / 1K Tokens | 0.012 / 1K Tokens | 支持 | Google Gemini 的模型, 此模型由第三方供应商提供，有小概率可能会出现响应速度较慢或报错的情况。|
 | gemini-3.1-pro-preview | 0.008 / 1K Tokens | 0.048 / 1K Tokens | 支持 | Google Gemini 的模型, 此模型由第三方供应商提供，有小概率可能会出现响应速度较慢或报错的情况。|
+| gemini-3.1-flash-lite-preview | 0.001 / 1K Tokens | 0.006 / 1K Tokens | 支持 | Google Gemini 的模型, 此模型由第三方供应商提供，有小概率可能会出现响应速度较慢或报错的情况。|
 | grok-4 | 0.012 / 1K Tokens | 0.06 / 1K Tokens | 支持 |grok基础模此模型由第三方供应商提供，有小概率可能会出现响应速度较慢或报错的情况。|
 | grok-4-fast | 0.0008 / 1K Tokens | 0.002 / 1K Tokens | 支持 |grok基础模此模型由第三方供应商提供，有小概率可能会出现响应速度较慢或报错的情况。|
 | qwen3.5-plus| 0.00056  / 1K Tokens[7阶梯计价]| 0.00336 / 1K Tokens | 支持 | qwen的模型, 此模型阶梯定价具体定价请查看文档最后的注释,此模型由第三方供应商提供，有小概率可能会出现响应速度较慢或报错的情况。|
@@ -255,34 +247,40 @@
 此费用为官方收费，非我们额外收费。
 
 [7] 阶梯计价
-> ### gpt-5.4
+> **gpt-5.4**
 > | 输入范围 | 输入价格 | 输出价格 |
 > |---------|---------|---------|
 > | 0 - 272K | 0.0175 CA/1K Tokens | 0.105 CA/1K Tokens |
 > | > 272K | 0.035 CA/1K Tokens | 0.1575 CA/1K Tokens |
 
-> ### qwen3-max-2026-01-23
+> **gpt-5.4-ca**
+> | 输入范围 | 输入价格 | 输出价格 |
+> |---------|---------|---------|
+> | 0 - 272K | 0.01 CA/1K Tokens | 0.06 CA/1K Tokens |
+> | > 272K | 0.02 CA/1K Tokens | 0.09 CA/1K Tokens |
+
+> **qwen3-max-2026-01-23**
 > | 输入范围 | 输入价格 | 输出价格 |
 > |---------|---------|---------|
 > | 0 - 32K | 0.00175 CA/1K Tokens | 0.007 CA/1K Tokens |
 > | 32K - 128K | 0.0028 CA/1K Tokens | 0.0112 CA/1K Tokens |
 > | > 128K | 0.0049 CA/1K Tokens | 0.0196 CA/1K Tokens |
 
-> ### qwen3-max-2026-01-23
+> **qwen3-max-2026-01-23**
 > | 输入范围 | 输入价格 | 输出价格 |
 > |---------|---------|---------|
 > | 0 - 128K | 0.00056 CA/1K Tokens | 0.00336 CA/1K Tokens |
 > | 128K - 256K | 0.0014 CA/1K Tokens | 0.0084 CA/1K Tokens |
 > | > 256K | 0.0028 CA/1K Tokens | 0.0168 CA/1K Tokens |
 
-> ### qwen3.5-397b-a17b
+> **qwen3.5-397b-a17b**
 > | 输入范围 | 输入价格 | 输出价格 |
 > |---------|---------|---------|
 > | 0 - 128K | 0.00084 CA/1K Tokens | 0.00504 CA/1K Tokens |
 > | > 128K | 0.0021 CA/1K Tokens | 0.0126 CA/1K Tokens |
 
 
-> ### glm-5
+> **glm-5**
 >| 输入范围 | 输入价格 | 输出价格 |
 >|---------|---------|---------|
 >| 0 - 32K | 0.0024 CA/1K Tokens | 0.0108 CA/1K Tokens |
