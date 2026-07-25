@@ -30,7 +30,7 @@
 
 ## 特点
 1. 支持 gpt | deepseek | claude | gemini  | qwen | kimi | minimax | glm 等常用大模型。
-2. 免费版支持gpt-5系列, gpt-4o，gpt-4.1一天5次；支持deepseek-r1, deepseek-v3.2, deepseek-v4系列一天30次，支持gpt-4o-mini，gpt-3.5-turbo，gpt-4.1-mini，gpt-4.1-nano, gpt-5-mini，gpt-5-nano, gpt-5.4-mini，gpt-5.4-nano一天200次。**（免费API限制输入token数量）**
+2. 免费版支持gpt-5系列, gpt-4o，gpt-4.1一天5次；支持deepseek-r1, deepseek-v3.2, deepseek-v4系列一天30次，支持gpt-4o-mini，gpt-3.5-turbo，gpt-4.1-mini，gpt-4.1-nano, gpt-5-mini，gpt-5-nano, gpt-5.4-mini，gpt-5.4-nano一天100次。**（每天10000点免费额度，超出每日免费限额后会限制输入token数量）**
 3. 与官方完全一致的接口标准，兼容各种软件/插件。
 4. 国内线路使用动态加速，体验远优于使用代理连接官方。
 5. 无需科学上网，国内环境直接可用。
