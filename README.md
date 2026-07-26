@@ -8,7 +8,7 @@
 
 国内动态加速 直连无需代理 协议统一接入便捷
 
-[快速开始](#如何使用) / [API文档](https://docs.chatanywhere.tech/) / [申请内测免费Key](https://api.chatanywhere.tech/v1/oauth/free/render) / [支持付费Key](https://api.chatanywhere.tech/#/shop/) / [服务可用性](https://status.chatanywhere.tech/)
+[快速开始](#如何使用) / [API文档](https://docs.chatanywhere.tech/) / [注册并绑定Github免费使用](https://chatanywhere.tech/) / [官网](https://chatanywhere.tech/) / [服务可用性](https://status.chatanywhere.tech/)
 
 [QQ群: 1032969073](https://qm.qq.com/cgi-bin/qm/qr?k=eHnJeNFXNg7Lo4c9A6ExGPxo4QvhiiVU&jump_from=webapi&authKey=1GAaHQWeunTjtkHjMHb0irQEua+7xbpMB2cXVb1yR5/2hVnooA1+Fv6igiTvW4mR)
 
@@ -30,7 +30,7 @@
 
 ## 特点
 1. 支持 gpt | deepseek | claude | gemini  | qwen | kimi | minimax | glm 等常用大模型。
-2. 免费版支持gpt-5系列, gpt-4o，gpt-4.1一天5次；支持deepseek-r1, deepseek-v3.2, deepseek-v4系列一天30次，支持gpt-4o-mini，gpt-3.5-turbo，gpt-4.1-mini，gpt-4.1-nano, gpt-5-mini，gpt-5-nano, gpt-5.4-mini，gpt-5.4-nano一天100次。**（每天10000点免费额度，超出每日免费限额后会限制输入token数量）**
+2. 免费版**每天10000点免费额度**，且各模型有最大次数限制（gpt-5系列, gpt-4o，gpt-4.1**一天5次**；deepseek-r1, deepseek-v3.2, deepseek-v4系列**一天30次**，gpt-4o-mini，gpt-3.5-turbo，gpt-4.1-mini，gpt-4.1-nano, gpt-5-mini，gpt-5-nano, gpt-5.4-mini，gpt-5.4-nano**一天100次**）。**超出10000点免费额度未达到次数限制，会限制输入token数量**。
 3. 与官方完全一致的接口标准，兼容各种软件/插件。
 4. 国内线路使用动态加速，体验远优于使用代理连接官方。
 5. 无需科学上网，国内环境直接可用。
@@ -53,7 +53,7 @@
 
 ## 免费使用
 
-- **🚀[申请领取内测免费API Key](https://api.chatanywhere.tech/v1/oauth/free/render)**
+- **🚀[注册并绑定Github免费使用](https://chatanywhere.tech/)**
 - 免费版支持deepseek, gpt-3.5-turbo, embedding, gpt-4o系列, gpt-5系列。
 - **转发Host1: `https://api.chatanywhere.tech` (国内中转，延时更低)**
 - **转发Host2: `https://api.chatanywhere.org` (国外使用)**
@@ -65,8 +65,8 @@
 
 ## 付费版API
 - 纯公益提供免费Key显然不是能持久运营下去的方案，所以我们引入付费API Key维持项目的日常开销，以促进项目的良性循环，还望大家理解。
-- [购买付费Key](https://api.chatanywhere.tech/#/shop/)
-- [付费版价格表](https://docs.chatanywhere.tech/doc-2694962)
+- [官网](https://chatanywhere.tech/)
+- [模型清单&价格](https://chatanywhere.tech/pricing)
 
 1. 支持**更稳定更快速的API**，无限速，体验更好，价格低于官方，充值便捷。
 2. 同官网计费策略，使用官方返回Tokens用量计费。
@@ -74,7 +74,7 @@
 
 ## 付费版支持模型
 
-- 查询余额地址: https://api.chatanywhere.tech
+- [实时模型清单&价格](https://chatanywhere.tech/pricing)
 - 列表可能未及时更新，部分模型可能已被官方下架，请以官方信息为准。
 - 以下是转发接口的详细计费[单位(CA币)：元]标准(价格随着供应商的变动而变动)：
 
@@ -282,18 +282,12 @@
 
 
 ## 如何使用
-- 由于频繁的恶意请求，我们不再直接提供公共的免费Key，现在需要你使用你的Github账号绑定来领取你自己的免费Key。
-- 🚀[申请领取内测免费API Key](https://api.chatanywhere.tech/v1/oauth/free/render) 或 [购买内测付费API Key](https://api.chatanywhere.tech/#/shop/)
+- 🚀[注册并绑定Github免费使用](https://chatanywhere.tech/)
 - 转发Host1: `https://api.chatanywhere.tech` (国内中转，延时更低)
 - 转发Host2: `https://api.chatanywhere.org` (国外使用)
-- 余额和使用记录查询（通知公告也会发在这里）: [余额查询及公告](https://api.chatanywhere.tech/)
 - 转发API无法直接向官方接口api.openai.com发起请求，需要将请求地址改为api.chatanywhere.tech才可以使用，大部分插件和软件都可以修改。
 - 遇到问题可以前往[ChatAnywhere Status](https://status.chatanywhere.tech/)查看接口可用性。
 
 ## 常见软件使用方法
 
 [文档-常用软件使用教程](https://docs.chatanywhere.tech/doc-5547696)
-
-## Star History
-
-[![Star History Chart](https://api.star-history.com/svg?repos=chatanywhere/GPT_API_free&type=Date)](https://www.star-history.com/#chatanywhere/GPT_API_free&Date)
