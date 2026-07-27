@@ -6,6 +6,8 @@
 
 免费使用 gpt-5 | deepseek
 
+付费支持Codex/Claude接入 **最低官方1-2折**
+
 支持 gpt | deepseek | claude | gemini | grok | qwen | kimi | minimax 等
 
 国内动态加速 直连无需代理 协议统一接入便捷
@@ -69,6 +71,7 @@
 - 纯公益提供免费Key显然不是能持久运营下去的方案，所以我们引入付费API Key维持项目的日常开销，以促进项目的良性循环，还望大家理解。
 - [官网](https://chatanywhere.tech/)
 - [模型清单&价格](https://chatanywhere.tech/pricing)
+- 付费最近价格官方1-2折！
 
 1. 支持**更稳定更快速的API**，无限速，体验更好，价格低于官方，充值便捷。
 2. 同官网计费策略，使用官方返回Tokens用量计费。
